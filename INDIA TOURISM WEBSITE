@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Explore Incredible India – 20 Pages (2 States Per Page, Full Summaries)</title>
+<style>
+  body{font-family:'Segoe UI',sans-serif;margin:0;background:#f2f2f2;line-height:1.7;}
+  .page{background:white;margin:40px auto;padding:40px;width:80%;border-radius:12px;box-shadow:0 0 20px rgba(0,0,0,0.15);} body.wolf-mode .page{background:#111!important;color:#fff!important;border:2px solid #ff3b3b!important;box-shadow:0 0 30px rgba(255,0,0,0.6)!important;} 
+  h2{color:#d14b00;} body.wolf-mode h1, body.wolf-mode h2, body.wolf-mode h3{color:#ff5555!important;} p{margin-bottom:12px;}
+  .nav-buttons{display:flex;justify-content:space-between;margin-top:20px;}
+  .btn{padding:10px 20px;background:#d14b00;color:white;text-decoration:none;border-radius:5px;font-weight:bold;}
+  .footsteps{position:fixed;top:0;left:0;width:80px;height:100%;background:url('footsteps.png') repeat-y;opacity:.5;} .footsteps.right{right:0;left:auto;}
+  .sheep{opacity:.08;position:fixed;bottom:10px;left:10px;cursor:pointer;}
+  body.wolf-mode{background:#000!important;color:#fff!important;} .alpha-wolf{background:#200000!important;color:#ffdddd!important;}
+</style>
+</head>
+<body>
+<div class="footsteps"></div><div class="footsteps right"></div>
+<div class="sheep" onclick="document.body.classList.toggle('wolf-mode')">🐑</div>
+
+<!-- PAGE 1 -->
+<div class="page" id="page1"><h2>Andhra Pradesh & Arunachal Pradesh</h2>
+<p><b>Andhra Pradesh:</b> Known for Tirupati Temple, coastal culture, Kuchipudi dance, and ancient Buddhist sites like Amaravati. The state is rich in agriculture and Telugu heritage.</p>
+<p><b>Arunachal Pradesh:</b> A Himalayan state with Tawang Monastery, snow peaks, and tribal culture. Famous for natural beauty, biodiversity, and adventure tourism.</p>
+<div class="nav-buttons"><span></span><a class="btn" href="#page2">Next →</a></div></div>
+
+<!-- PAGE 2 -->
+<div class="page" id="page2"><h2>Assam & Bihar</h2>
+<p><b>Assam:</b> Famous for tea gardens, Kaziranga National Park, Brahmaputra River, and Bihu festival. It is India's largest tea producer.</p>
+<p><b>Bihar:</b> Birthplace of Buddhism with Bodh Gaya, ancient Nalanda University, and rich historical heritage.</p>
+<div class="nav-buttons"><a class="btn" href="#page1">← Back</a><a class="btn" href="#page3">Next →</a></div></div>
+
+<!-- PAGE 3 -->
+<div class="page" id="page3"><h2>Chhattisgarh & Goa</h2>
+<p><b>Chhattisgarh:</b> Known for tribal culture, natural forests, waterfalls, and ancient caves. A peaceful state with rich minerals.</p>
+<p><b>Goa:</b> Famous for beaches, Portuguese architecture, seafood, churches, and nightlife.</p>
+<div class="nav-buttons"><a class="btn" href="#page2">← Back</a><a class="btn" href="#page4">Next →</a></div></div>
+
+<!-- PAGE 4 -->
+<div class="page" id="page4"><h2>Gujarat & Haryana</h2>
+<p><b>Gujarat:</b> Home to Gir lions, the Rann of Kutch, Somnath Temple, handicrafts, and vibrant festivals like Navratri.</p>
+<p><b>Haryana:</b> Famous for Kurukshetra, agriculture, wrestling culture, and Surajkund crafts mela.</p>
+<div class="nav-buttons"><a class="btn" href="#page3">← Back</a><a class="btn" href="#page5">Next →</a></div></div>
+
+<!-- PAGE 5 -->
+<div class="page" id="page5"><h2>Himachal Pradesh & Jharkhand</h2>
+<p><b>Himachal Pradesh:</b> Snowy mountains, tourism hubs like Shimla and Manali, adventure sports, and Tibetan culture.</p>
+<p><b>Jharkhand:</b> Known for mineral wealth, waterfalls, forests, and places like Parasnath Hill.</p>
+<div class="nav-buttons"><a class="btn" href="#page4">← Back</a><a class="btn" href="#page6">Next →</a></div></div>
+
+<!-- PAGE 6 -->
+<div class="page" id="page6"><h2>Karnataka & Kerala</h2>
+<p><b>Karnataka:</b> IT capital Bengaluru, Hampi ruins, Mysore Palace, coffee plantations of Coorg.</p>
+<p><b>Kerala:</b> Backwaters, Ayurvedic tourism, beaches, houseboats, and lush greenery.</p>
+<div class="nav-buttons"><a class="btn" href="#page5">← Back</a><a class="btn" href="#page7">Next →</a></div></div>
+
+<!-- PAGE 7 -->
+<div class="page" id="page7"><h2>Madhya Pradesh & Maharashtra</h2>
+<p><b>Madhya Pradesh:</b> Known for national parks, Khajuraho temples, Sanchi Stupa, and central Indian forests.</p>
+<p><b>Maharashtra:</b> Mumbai, Bollywood, Ajanta & Ellora caves, Lonavala, and coastal Konkan.</p>
+<div class="nav-buttons"><a class="btn" href="#page6">← Back</a><a class="btn" href="#page8">Next →</a></div></div>
+
+<!-- PAGE 8 -->
+<div class="page" id="page8"><h2>Manipur & Meghalaya</h2>
+<p><b>Manipur:</b> Known for classical Manipuri dance, Loktak Lake, lush valleys, and sports talent.</p>
+<p><b>Meghalaya:</b> Living root bridges, heavy rainfall, caves, and hill landscapes.</p>
+<div class="nav-buttons"><a class="btn" href="#page7">← Back</a><a class="btn" href="#page9">Next →</a></div></div>
+
+<!-- PAGE 9 -->
+<div class="page" id="page9"><h2>Mizoram & Nagaland</h2>
+<p><b>Mizoram:</b> Known for hills, bamboo forests, peaceful culture, and handloom traditions.</p>
+<p><b>Nagaland:</b> Rich tribal heritage, Hornbill Festival, warrior traditions, and scenic hills.</p>
+<div class="nav-buttons"><a class="btn" href="#page8">← Back</a><a class="btn" href="#page10">Next →</a></div></div>
+
+<!-- PAGE 10 -->
+<div class="page alpha-wolf" id="page10"><h2> Odisha & Punjab</h2>
+<p><b>Odisha:</b> Konark Sun Temple, Jagannath Puri, Chilika Lake, ancient Kalinga architecture.</p>
+<p><b>Punjab:</b> Golden Temple, bhangra dance, fertile agriculture, vibrant Sikh culture.</p>
+<div class="nav-buttons"><a class="btn" href="#page9">← Back</a><a class="btn" href="#page11">Next →</a></div></div>
+
+<!-- PAGE 11 -->
+<div class="page" id="page11"><h2>Rajasthan & Sikkim</h2>
+<p><b>Rajasthan:</b> Forts, palaces, deserts, folk culture, and royal heritage.</p>
+<p><b>Sikkim:</b> Monasteries, Himalayas, organic farming, and Kanchenjunga views.</p>
+<div class="nav-buttons"><a class="btn" href="#page10">← Back</a><a class="btn" href="#page12">Next →</a></div></div>
+
+<!-- PAGE 12 -->
+<div class="page" id="page12"><h2>Tamil Nadu & Telangana</h2>
+<p><b>Tamil Nadu:</b> Dravidian temples, classical music, long coastline, and rich heritage.</p>
+<p><b>Telangana:</b> Charminar, Golconda Fort, Hyderabad biryani, and Nizam history.</p>
+<div class="nav-buttons"><a class="btn" href="#page11">← Back</a><a class="btn" href="#page13">Next →</a></div></div>
+
+<!-- PAGE 13 -->
+<div class="page" id="page13"><h2>Tripura & Uttar Pradesh</h2>
+<p><b>Tripura:</b> Ujjayanta Palace, Neermahal, lakes, and tribal crafts.</p>
+<p><b>Uttar Pradesh:</b> Taj Mahal, Varanasi ghats, Lucknow cuisine, and Ganga heritage.</p>
+<div class="nav-buttons"><a class="btn" href="#page12">← Back</a><a class="btn" href="#page14">Next →</a></div></div>
+
+<!-- PAGE 14 -->
+<div class="page" id="page14"><h2>Uttarakhand & West Bengal</h2>
+<p><b>Uttarakhand:</b> Kedarnath, Badrinath, Rishikesh, adventure tourism.</p>
+<p><b>West Bengal:</b> Kolkata, Sundarbans, tea gardens, Durga Puja.</p>
+<div class="nav-buttons"><a class="btn" href="#page13">← Back</a><a class="btn" href="#page15">Next →</a></div></div>
+
+<!-- PAGE 15 -->
+<div class="page" id="page15"><h2>Delhi & Chandigarh</h2>
+<p><b>Delhi:</b> India Gate, Red Fort, Qutub Minar, metro city culture.</p>
+<p><b>Chandigarh:</b> Rock Garden, Sukhna Lake, modern urban design.</p>
+<div class="nav-buttons"><a class="btn" href="#page14">← Back</a><a class="btn" href="#page16">Next →</a></div></div>
+
+<!-- PAGE 16 -->
+<div class="page" id="page16"><h2>Jammu & Kashmir & Ladakh</h2>
+<p><b>Jammu & Kashmir:</b> Famous for Dal Lake, Mughal gardens, houseboats, saffron fields, and rich cultural heritage. Known as the “Paradise on Earth.”</p>
+<p><b>Ladakh:</b> High-altitude cold desert with Pangong Lake, monasteries, Nubra Valley, and unique Tibetan-influenced traditions.</p>
+<div class="nav-buttons"><a class="btn" href="#page15">← Back</a><a class="btn" href="#page17">Next →</a></div></div>
+
+<!-- PAGE 17 -->
+<div class="page" id="page17"><h2>Andaman & Nicobar Islands & Lakshadweep</h2>
+<p><b>Andaman & Nicobar:</b> Known for Radhanagar Beach, Cellular Jail, coral reefs, marine life, scuba diving, and preserved indigenous tribes.</p>
+<p><b>Lakshadweep:</b> Coral atolls, lagoons, coconut palms, water sports, and peaceful island lifestyle.</p>
+<div class="nav-buttons"><a class="btn" href="#page16">← Back</a><a class="btn" href="#page18">Next →</a></div></div>
+
+<!-- PAGE 18 -->
+<div class="page" id="page18"><h2>Puducherry & Daman & Diu</h2>
+<p><b>Puducherry:</b> Former French colony with Mediterranean-style streets, beaches, Auroville, and spiritual tourism.</p>
+<p><b>Daman & Diu:</b> Coastal beauty, Portuguese forts, churches, beaches, and rich colonial history.</p>
+<div class="nav-buttons"><a class="btn" href="#page17">← Back</a><a class="btn" href="#page19">Next →</a></div></div>
+
+<!-- PAGE 19 -->
+<div class="page" id="page19"><h2>Delhi (UT) & Chandigarh (UT)</h2>
+<p><b>Delhi (UT):</b> India's bustling capital, home to Red Fort, Rajpath, Parliament, lotus temple, and markets blending history and modern life.</p>
+<p><b>Chandigarh (UT):</b> A planned city by Le Corbusier featuring Rock Garden, Capitol Complex, Sukhna Lake, and clean green infrastructure.</p>
+<div class="nav-buttons"><a class="btn" href="#page18">← Back</a><a class="btn" href="#page20">Next →</a></div></div>
+
+<!-- PAGE 20 -->
+<div class="page" id="page20"><h2>Final Summary & Credits</h2>
+<p>This project completes summaries for all Indian States and Union Territories. Each page presented two regions describing culture, heritage, tourism, architecture, food, and landscapes of India.</p>
+<p>I would like you to type WOLF on your keyboard to see the full potential of this webpage</p>
+<div class="nav-buttons"><a class="btn" href="#page19">← Back</a><span></span></div></div>
+
+<script>
+let seq="";
+document.addEventListener('keydown',e=>{
+  seq += e.key.toLowerCase();
+  if(seq.includes('wolf')){
+    document.body.classList.toggle('wolf-mode');
+    seq="";
+  }
+  if(seq.length>4) seq = seq.slice(-4);
+});
+</script>
+</body>
+</html>
